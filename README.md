@@ -1,4 +1,4 @@
-# ROT-n-Py
+# ROT-n.py
 Simple ROT encryption\decryption engine written for Python 3.x
 
 This is a very simple, quickly coded ROT encryption/decryption engine. 
