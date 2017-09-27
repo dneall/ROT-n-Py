@@ -1,4 +1,4 @@
-#!/usr/bin/env
+#!/usr/bin/env python
 # Simple ROT-Any Encryption/Decryption v1.2
 # Daniel Neall
 
