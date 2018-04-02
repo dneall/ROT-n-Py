@@ -15,7 +15,7 @@ def rotate(strg,n):
 def encrypt():
 	plaintext   = input("What string should I encrypt?")
 	plaintext = plaintext.lower()
-	key = rotate(alpha, int(input("Shift by how many? (1-25)")))
+	key = rotate(alpha, int(input("Shift by how many? (1-25)"))) # Use mod instead of limiting rotation value
 	cipherTable = ''.maketrans (alpha, key)
 	return plaintext.translate(cipherTable)
 
